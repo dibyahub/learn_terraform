@@ -1,0 +1,8 @@
+ingress:
+  enabled: true
+  hosts:
+    - host: "collaboration.dibya.org"
+      paths:
+        - path: /
+          # Ignored if not kubeVersion >= 1.14-0
+          pathType: Prefix

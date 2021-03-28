@@ -1,0 +1,21 @@
+#+TITLE: Demo Etherpad
+#+DATE: Saturday, Mar 27 2021
+
+
+* Steps
+  - create remote project
+    - authenticate: terraform login
+
+  - create local workspace:
+    #+begin_src bash
+    # create development workspace
+    terraform workspace new development
+
+    # list workspace
+    terraform workspace list
+    #+end_src
+
+  - create a variable on tf.cloud
+    - public_url: collab-development.dibya.org
+
+  - terraform plan 
